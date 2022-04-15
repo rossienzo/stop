@@ -1,0 +1,8 @@
+#display {
+    font-size: calc(30px + 2vmin);
+    background-color: white;
+    color: black;
+    min-width: 100px;
+    height: 90px;
+    padding-top: 0.8em;
+}

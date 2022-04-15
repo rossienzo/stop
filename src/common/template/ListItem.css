@@ -1,0 +1,10 @@
+.list-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-items.gray {
+    background-color: rgb(243, 239, 239);
+}

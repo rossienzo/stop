@@ -1,0 +1,11 @@
+header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 1em;
+}
+  
+header h2 {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #600c0c;
+  color: #F05454;
+}
