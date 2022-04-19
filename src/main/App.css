@@ -1,3 +1,12 @@
+:root {
+  --fixed-tab-background: rgba(17,21,24,.45);
+  --title-box: #072448;
+  --items-background: #DAB88B;
+  --items-border: #c7a67b;
+  --items-selected-background: #a08764;
+  --items-selected-border: #a08764;
+}
+
 .wrapper {
   min-height: 100vh;
   display: flex;

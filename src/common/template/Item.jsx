@@ -25,7 +25,7 @@ class Item extends React.Component {
     render() 
     {
         return(
-            <span className={`item ${this.props.class}`} onClick={this.addLetter}>
+            <span className={`item ${this.props.class === undefined ? '' : this.props.class}`} onClick={this.addLetter}>
                 {this.props.text}
             </span>
         )

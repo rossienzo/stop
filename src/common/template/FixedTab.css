@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(17,21,24,.45);
+    background: var(--fixed-tab-background);
 }
 
 .hidden {

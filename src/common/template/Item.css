@@ -1,14 +1,15 @@
 .item {
-    width: 10px;
-    padding: 15px;
+    width: 2.5em;
+    height: 2.5em;
     margin: 0.5em;
     font-weight: bold;
-    background-color: #DAB88B;
-    border: 1px solid #c7a67b;
+    background-color: var(--items-background);
+    border: 1px solid var(--items-border);
+    color: white;
     cursor: pointer;
 }
 
 .selected {
-    background-color: #a08764;
-    border: 1px solid #968064;
+    background-color: var(--items-selected-background);
+    border: 1px solid var(--items-selected-border);
 }
